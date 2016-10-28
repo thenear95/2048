@@ -1,2 +1,2 @@
 # 2048
-Hellow wolrd
+Hellow world
