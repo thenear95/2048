@@ -1,2 +1,4 @@
 # 2048
-Hellow world
+Hello world
+
+Bienvenue sur mon GitHub
