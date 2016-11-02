@@ -17,7 +17,7 @@ public class Jeu2048 extends JFrame implements KeyListener
     /**
 	 * 
 	 */
-	private static final long serialVersionUID = 1L; // jcpa ça sert à quoi A LOOK SUR LE NET //
+	private static final long serialVersionUID = 1L; // jcpa Ã§a sert Ã  quoi A LOOK SUR LE NET //
 
 	int[][]tuiles={	{0,2,0,0}, // Matrice de dimension 4x4 en ayant des le debut 2,2//
                     	{0,2,0,0},
@@ -82,12 +82,7 @@ public class Jeu2048 extends JFrame implements KeyListener
                switch(tuiles[i][j])
                {
                    case 2:
-//                       if(tuiles[ii][jj]==2)
-//                       {
-//                       g2.setFont(new Font("Arial",Font.BOLD,40));
-//                       g2.setColor(Color.BLUE.red);
-//                       g2.drawString("2", 90+j*100, 120+i*100);
-//                       }
+
                        g2.setFont(new Font("Arial",Font.BOLD,40));
                        g2.setColor(Color.BLUE.darker());
                        g2.drawString("2", 90+j*100, 120+i*100);
@@ -99,12 +94,7 @@ public class Jeu2048 extends JFrame implements KeyListener
                        g2.drawString("2", 90+j*100, 120+i*100);
                        break;
                    case 4:
-//                       if(tuiles[ii][jj]==4)
-//                       {
-//                       g2.setFont(new Font("Arial",Font.BOLD,40));
-//                       g2.setColor(Color.red);
-//                       g2.drawString("4", 90+j*100, 120+i*100);
-//                       }
+
                        g2.setFont(new Font("Arial",Font.BOLD,40));
                        g2.setColor(Color.BLUE.darker());
                        g2.drawString("4", 90+j*100, 120+i*100);
